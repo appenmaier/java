@@ -1,0 +1,27 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  
+remote_theme: jekyll/minima
+
+url: "https://appenmaier.github.io"
+baseurl: "/Java"
+
+disqus:
+    shortname: appe
+  
+header_pages:
+  - docs/java1/java1.md
+  - docs/java2/java2.md
+
+minima:
+  skin: dark
+
+title: Programmierung
+description: Code is like humor. When you have to explain it, it´s bad. (Cory House)
+
+author:
+  name: Daniel Appenmaier 
+  email: "daniel.appenmaier@gmail.com"
+
+
