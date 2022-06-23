@@ -5,7 +5,7 @@ plugins:
 remote_theme: jekyll/minima
 
 url: "https://appenmaier.github.io"
-baseurl: "/Java"
+baseurl: "/java"
 
 disqus:
     shortname: appe
