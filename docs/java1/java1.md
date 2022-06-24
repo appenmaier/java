@@ -63,7 +63,7 @@ title: Einführung in die Programmierung
     - [Ausnahmen (Exceptions)](bugs/exceptions.md) \| [Übungsaufgaben](bugs/exercises/exceptions.md)
 
 ## Exkurse
-- Darstellung von Zahlen und Zeichen im Computer _...coming soon_ 
+- Darstellung von Zahlen und Zeichen im Computer _folgt_ 
 
 ## Anleitungen
-- Systemumgebung einrichten _...coming soon_ 
+- Entwicklungsumgebung einrichten _folgt_ 
