@@ -7,7 +7,7 @@ title: Inhalte
 - [Fortgeschrittene Programmierung](docs/java2/java2.md)
 
 ## git-Repositories
-- Programmierung: https://github.com/appenmaier/java/
+- Programmierung: [https://github.com/appenmaier/java/](https://github.com/appenmaier/java/)
 - WWIBE121: _folgt_
 - WWIBE221: _folgt_
 
