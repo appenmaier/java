@@ -13,7 +13,7 @@ Intermediäre Operationen ermöglichen das Filtern, Sortieren, Mappen etc. von S
 | map | Function<T, R\> | Stream<T\> |
 | distinct | - | Stream<T\> |
 | sorted | Comparator<T\> | Stream<T\> |
-| limit | - | Stream<<T\> |
+| limit | - | Stream<T\> |
 
 ## Terminale Operationen
 Terminale Operationen werden z.B. zum Suchen, zum Aggregieren oder zum Ausgeben von Daten verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine keine weiteren Operationen mehr ausgeführt werden.
