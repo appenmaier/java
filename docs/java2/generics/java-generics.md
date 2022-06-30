@@ -7,7 +7,7 @@ konkrete Datentypen dar. Beim Kompilieren werden alle generischen Informationen 
 vorhandene statische Typsicherheit können Laufzeitfehler verhindert und Fehler bereits beim Kompilieren entdeckt werden.
 
 ## Beispiel für eine generische Klasse
-Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information mit Hilfe eines Typparameters.
+Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information mit Hilfe der Typvariablen `T`.
 
 ```java
 public class GenericBox<T> { 
@@ -20,7 +20,7 @@ public class GenericBox<T> { 
 ```
 
 In der main-Methode der Startklasse wird zunächst eine ganze Zahl in einer generischen Box gespeichert und anschließend wieder ausgelesen.
-Die Umwandlung der ganzen Zahl in eine Zeichenkette führt aufgrund der statischen Typsischerheit zu einem Kompilierungsfehler.
+Die Umwandlung der ganzen Zahl in eine Zeichenkette führt aufgrund der statischen Typsicherheit zu einem Kompilierungsfehler.
 
 ```java
 public class MainClass {
@@ -56,10 +56,10 @@ public class MainClass {
 }
 ```
 
-## Namensrichtlinien für Typparameter
-Um den Einsatzbereich von Typparametern in generischen Klassen und Methoden kenntlich zu machen, sollte man festgelegte Zeichen verwenden.
+## Namensrichtlinien für Typvariablen
+Um den Einsatzbereich von Typvariablen in generischen Klassen und Methoden kenntlich zu machen, sollte man festgelegte Zeichen verwenden.
 
-| Zeichen | Einsatzbereich |
+| Typvariable | Einsatzbereich |
 | ------- | -------------- |
 | T, U, V, W... | Datentyp (Type) |
 | E | Element einer Datensammlung (Element) |
