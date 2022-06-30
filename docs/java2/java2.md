@@ -3,6 +3,9 @@ title: Fortgeschrittene Programmierung
 ---
 
 ## Inhalte
+- [Generische Programmierung](generics/generics.md) \| [Übungsaufgaben](generics/exercises/generics.md)
+    - [Java Generics](generics/java-generics.md) \| [Übungsaufgaben](generics/exercises/java-generics.md)
+    - [Varianz](generics/variance.md) \| [Übungsaufgaben](generics/exercises/variance.md)
 - [Innere Klassen (Inner Classes)](inner-classes/inner-classes.md) \| [Übungsaufgaben](inner-classes/exercises/inner-classes.md)
     - [Geschachtelte Klassen (Nested Classes)](inner-classes/nested-classes.md) \| [Übungsaufgaben](inner-classes/exercises/nested-classes.md)
     - [Elementklassen (Member Classes)](inner-classes/member-classes.md) \| [Übungsaufgaben](inner-classes/exercises/member-classes.md)
