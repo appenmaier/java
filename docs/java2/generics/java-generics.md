@@ -10,11 +10,11 @@ vorhandene statische Typsicherheit können Laufzeitfehler verhindert und Fehler 
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information mit Hilfe der Typvariablen `T`.
 
 ```java
-public class GenericBox<T> { 
+public class GenericBox<T> {
 
-    private T content; 
-    public void set(T content) { this.content = content; } 
-    public T get() { return content; } 
+    private T content;
+    public void set(T content) { this.content = content; }
+    public T get() { return content; }
 
 }
 ```
@@ -25,14 +25,16 @@ Die Umwandlung der ganzen Zahl in eine Zeichenkette führt aufgrund der statisch
 ```java
 public class MainClass {
 
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         GenericBox<Integer> genericBox = new GenericBox<>();
         genericBox.set(5);
-        String i = genericBox.get(); // Kompilierungsfehler   
+        String i = genericBox.get(); // Kompilierungsfehler
     }
 
 }
 ```
+
+> Die Typisierung kann entweder explizit oder implizit über den Diamantenoperator `<>` erfolgen.
 
 ## Beispiel für eine generische Methode
 Die generische Methode `getIndex(T, T[])` gibt den Index eines beliebig typisierten gesuchten Wertes innerhalb eines gleichtypisierten Feldes zurück.
