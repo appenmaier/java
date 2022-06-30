@@ -5,6 +5,9 @@ title: Intermediäre und Terminale Operationen
 ## Kontrollfragen
 - Welche Arten von Operationen können auf Ströme angewendet werden?
 
+## Übungsaufgaben
+- Übungsaufgabe [IntermediateAndTerminalOperations01](intermediate-and-terminal-operations01.md)
+
 ## Übungsaufgaben von tutego.de
 - Übungsaufgabe [II-5-1.1.1](https://tutego.de/javabuch/aufgaben/java.util.stream-api.html#_heldenepos_stream_api_kennenlernen)
 - Übungsaufgabe [II-5-1.1.2](https://tutego.de/javabuch/aufgaben/java.util.stream-api.html#_den_geliebten_captain_aus_einer_liste_ermitteln)
