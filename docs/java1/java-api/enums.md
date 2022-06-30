@@ -15,7 +15,7 @@ public enum WeekDays {
     WEDNESDAY("Mittwoch", true),
     THURSDAY("Donnerstag", true),
     FRIDAY("Freitag", true),
-    SATURDAY("Samstag", ftrue),
+    SATURDAY("Samstag", true),
     SUNDAY("Sonntag", false);
   
     private String description;
