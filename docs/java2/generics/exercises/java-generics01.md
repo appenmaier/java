@@ -1,5 +1,5 @@
 ---
-title: Übungsaufgabe JavaGenerics01.md
+title: Übungsaufgabe JavaGenerics01
 ---
 
 Erstelle die Klassen `Bottle`, `BeerBottle`, `WineBottle` und `Crate` anhand des abgebildeten Klassendiagramms.
