@@ -9,11 +9,11 @@ eingeschränkt werden. Zusätzlich ermöglicht der Wildcard-Typ `?` bei parametr
 Die generische Klasse `GenericBox<T>` ermöglicht das Speichern einer beliebig typisierten Information.
 
 ```java
-public class GenericBox<T> { 
+public class GenericBox<T> {
 
-    private T content; 
-    public void set(T content) { this.content = content; } 
-    public T get() { return content; } 
+    private T content;
+    public void set(T content) { this.content = content; }
+    public T get() { return content; }
 
 }
 ```
@@ -37,17 +37,17 @@ public class MainClass {
         bivariant = new GenericBox<Above>();
         bivariant = new GenericBox<Center>();
         bivariant = new GenericBox<Below>();
- 
+
         GenericBox<? extends Center> covariant;
         covariant = new GenericBox<Above>(); // Kompilierungsfehler
-		    covariant = new GenericBox<Center>();
+        covariant = new GenericBox<Center>();
         covariant = new GenericBox<Below>();
- 
+
         GenericBox<? super Center> contravariant;
         contravariant = new GenericBox<Above>();
         contravariant = new GenericBox<Center>();
         contravariant = new GenericBox<Below>(); // Kompilierungsfehler
- 
+
         GenericBox<Center> invariant;
         invariant = new GenericBox<Above>(); // Kompilierungsfehler
         invariant = new GenericBox<Center>();
