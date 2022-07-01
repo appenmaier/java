@@ -11,8 +11,6 @@ Der Begriff Entwurfsmuster wurde maßgeblich durch das 1994 erschienene Buch _De
 ## Das Adapater-Entwurfsmuster
 Adapterklassen (auch Hüllenklassen oder Wrapper-Klassen) ermöglichen die Kommunikation zwischen Klassen mit zueinander inkompatiblen Schnittstellen. Bekannte Adapterklassen in Java sind die sind Wrapper-Klassen `Short`, `Byte`, `Integer`, `Long`, `Float`, `Double`, `Character`, `Boolean`. Das Adapter-Entwurfsmuster gehört zu den Strukturmustern.
 
-![image](https://user-images.githubusercontent.com/47243617/175275963-533cbd9e-8c08-4284-9516-28cda591a9d0.png)
-
 ## Das MVC-Entwurfsmuster
 Das MVC[^1]-Entwurfmuster stellt einen gängigen Ansatz zur Entwicklung von grafischen Benutzeroberflächen dar, bei dem die grafische Benutzeroberfläche in drei Bereiche unterteilt wird:
 - Das **Model** ist für die Datenhaltung und -verwaltung zuständig
