@@ -9,7 +9,7 @@ Die Schnittstelle `List<E>` stellt verschiedene Fabrikmethoden[^1] zum Erzeugen 
 
 ```java
 public class MainClass {
- 
+
     public static void main(String[] args) {
         List<String> list = List.of("Hans", "Peter", "Lisa");
 
@@ -30,7 +30,7 @@ Die Klasse `Arrays` stellt neben Methoden zum Sortieren und Durchsuchen von Feld
 
 ```java
 public class MainClass {
- 
+
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Hans", "Peter", "Lisa");
 
@@ -49,7 +49,7 @@ Die Klasse `ArrayList<E>` stellt eine veränderbare Liste dynamischer Größe au
 
 ```java
 public class MainClass {
- 
+
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("Hans");
