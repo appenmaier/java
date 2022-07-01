@@ -1,5 +1,5 @@
 ---
-title: Gültigkeitsbereiche
+title: Gültigkeitsbereiche von Datenobjekten
 ---
 
 Datenobjekte sind nur innerhalb eines Programmabschnitts (Unterprogramm[^1], Funktion[^2], Methode oder Anweisungsblock) gültig, d.h. man kann nur innerhalb dieses Programmabschnitts auf das Datenobjekt zugreifen.
