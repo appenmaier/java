@@ -8,7 +8,7 @@ title: Ausnahmen (Exceptions)
 - Wie kann eine Ausnahme definiert, ausgelöst, weitergeleitet und abgefangen werden?
 
 ## Übungsaufgaben
-- Übungsaufgabe Exceptions01
+- Übungsaufgabe [Exceptions01](exceptions01.md)
 - Übungsaufgabe [Exceptions02](exceptions02.md)
 - Übungsaufgabe [Exceptions03](exceptions03.md)
 
