@@ -45,6 +45,7 @@ title: Einführung in die Programmierung
     - [Zeichenketten (Strings)](java-api/strings.md)
     - [Mathematische Berechungen](java-api/maths.md)
     - [Pseudozufallszahlen](java-api/randoms.md)
+    - [Laufzeitmessungen](java-api/runtimes.md)
     - [Datums- und Zeitangaben](java-api/dates-and-times.md)
     - [Wrapper-Klassen](java-api/wrappers.md)
     - [Die Mutter aller Klassen](java-api/object.md)
