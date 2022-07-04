@@ -22,7 +22,7 @@ Terminale Operationen werden z.B. zum Suchen, zum Aggregieren oder zum Ausgeben 
 
 | Operation  | Methode                           | Schnittstellen-Methode |
 | -----------| --------------------------------- | ---------------------- |
-| Finden     | `Optional<T> findFAny()`          | -                      |
+| Finden     | `Optional<T> findAny()`          | -                      |
 | Finden     | `Optional<T> findFirst()`         | -                      |
 | Prüfen     | `boolean allMatch(Predicate<T>)`  | `boolean test(T)`      |
 | Prüfen     | `boolean anyMatch(Predicate<T>)`  | `boolean test(T)`      |
