@@ -6,6 +6,7 @@ title: Übungsaufgabe Constructors01
 - Passe die ausführbare Klasse aus Übungsaufgabe [ObjectsAndReferences01](objects-and-references01.md) so an, dass sie fehlerfrei ausgeführt werden kann
 
 ## Attribute der Klasse Vehicle
+
 | Attribut | Datentyp | Sichtbarkeit |
 | -------- | -------- | ------------ |
 | make | String | private |
@@ -13,6 +14,7 @@ title: Übungsaufgabe Constructors01
 | speed | double | private |
 
 ## Methoden der Klasse Vehicle
+
 | Methode | Rückgabewert | Sichtbarkeit | Beschreibung |
 | ------- | ------------ | ------------ | ------------ |
 | _~setMake(String)~_ | _~void~_ | _~public~_ | _~Festlegen des Herstellers~_ |
