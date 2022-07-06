@@ -7,6 +7,7 @@ title: Übungsaufgabe StaticAttributesAndMethods01
 - Passe die ausführbare Klasse aus Übungsaufgabe [Constructors01](constructors01.md) so an, dass mehrere Fahrzeuge erstellt werden und dass die Anzahl Fahrzeuge einmal vor und einmal nach den Objekterzeugungen ausgegeben wird
 
 ## Attribute der Klasse Vehicle
+
 | Attribut | Datentyp | Sichtbarkeit | Level |
 | -------- | -------- | ------------ | ----- |
 | make | String | private | nicht-statisch |
@@ -15,6 +16,7 @@ title: Übungsaufgabe StaticAttributesAndMethods01
 | _numberOfVehicles_ | _int_ | _private_ | _statisch_ |
 
 ## Methoden der Klasse Vehicle
+
 | Methode | Rückgabewert | Sichtbarkeit | Level | Beschreibung |
 | ------- | ------------ | ------------ | ----- | ------------ |
 | Vehicle(String, String) | void | public | nicht-statisch | Festlegen des Herstellers und des Modells |
@@ -27,6 +29,7 @@ title: Übungsaufgabe StaticAttributesAndMethods01
 | _getNumberOfVehicles()_ | _int_ | _public_ | _statisch_ | _Rückgabe der Anzahl Fahrzeuge_ |
 
 ## Konsolenausgabe
+
 ```markdown
 Anzahl Fahrzeuge: 0
 Anzahl Fahrzeuge: 3
