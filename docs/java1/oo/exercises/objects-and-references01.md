@@ -6,6 +6,7 @@ title: Übungsaufgabe ObjectsAndReferences01
 - Erstelle eine ausführbare Klasse, welches ein Fahrzeug erzeugt, lege Hersteller und Modell fest und lasse das Fahrzeug mehrmals beschleunigen und bremsen
 
 ## Attribute der Klasse Vehicle
+
 | Attribut | Datentyp | Sichtbarkeit |
 | -------- | -------- | ------------ |
 | make     | String   | private      |
@@ -13,6 +14,7 @@ title: Übungsaufgabe ObjectsAndReferences01
 | speed    | double   | private      |
 
 ## Methoden der Klasse Vehicle
+
 | Methode          | Rückgabewert | Sichtbarkeit | Beschreibung                                            |
 | ---------------- | ------------ | ------------ | ------------------------------------------------------- |
 | setMake(String)  | void         | public       | Festlegen des Herstellers                               |
@@ -25,6 +27,7 @@ title: Übungsaufgabe ObjectsAndReferences01
 | print()          | void         | public       | Ausgabe: Hersteller Modell                              |
 
 ## Konsolenausgabe
+
 ```markdown
 Porsche 911 beschleunigt auf 30km/h
 Porsche 911 beschleunigt auf 60km/h
