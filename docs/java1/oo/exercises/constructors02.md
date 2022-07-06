@@ -6,12 +6,14 @@ title: Übungsaufgabe Constructors02
 - Erstelle eine ausführbare Klasse, welche einen Würfel erzeugt. Es soll 5-mal hintereinander gewürfelt und das Ergebnis des Wurfes ausgegeben werden
 
 ## Attribute der Klasse Dice
+
 | Attribut | Datentyp | Sichtbarkeit |
 | -------- | -------- | ------------ |
 | _id_ | _int_ | _private_ |
 | _value_ | _int_ | _private_ |
 
 ## Methoden der Klasse Dice
+
 | Methode | Rückgabewert | Sichtbarkeit | Beschreibung |
 | ------- | ------------ | ------------ | ------------ |
 | _Dice(int)_ | _void_ | _public_ | _Setzen der ID_ |
@@ -20,6 +22,7 @@ title: Übungsaufgabe Constructors02
 | _rollTheDice()_ | _void_ | _public_ | _Setzen des Wertes_ |
 
 ## Konsolenausgabe
+
 ```markdown
 ID - Würfelwert
 1 - 1
