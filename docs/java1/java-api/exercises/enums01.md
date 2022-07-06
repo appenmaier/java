@@ -7,6 +7,7 @@ title: Übungsaufgabe Enums01
 - Passe die ausführbare Klasse aus Übungsaufgabe [StaticAttributesAndMethods01](../../oo/exercises/static-attributes-and-methods01.md) so an, dass sie fehlerfrei ausgeführt werden kann
 
 ## Aufzählungskonstanten der Klasse Engine
+
 | Konstante | Werte |
 | --------- | ----- |
 | _DIESEL_ | _Diesel_ |
@@ -15,17 +16,20 @@ title: Übungsaufgabe Enums01
 | _ELECTRO_ | _Elektro_ |
 
 ## Attribute der Klasse Engine
+
 | Attribut | Datentyp | Sichtbarkeit | Level |
 | -------- | -------- | ------------ | ----- |
 | _description_ | _String_ | _private_ | _nicht-statisch_ |
 
 ## Methoden der Klasse Engine
+
 | Methode | Rückgabewert | Sichtbarkeit | Level | Beschreibung |
 | ------- | ------------ | ------------ | ----- | ------------ |
 | _Engine(String)_ | _void_ | _private_ | _nicht-statisch_ | _Festlegen der Motorenbeschreibung_ |
 | _getDescription()_ | _String_ | _public_ | _nicht-statisch_ | _Rückgabe der Motorenbeschreibung_ |
 
 ## Attribute der Klasse Vehicle
+
 | Attribut | Datentyp | Sichtbarkeit |Level |
 | -------- | -------- | ------------ | ---- |
 | make | String | private | nicht-statisch |
@@ -35,6 +39,7 @@ title: Übungsaufgabe Enums01
 | numberOfVehicles | int | private | statisch |
 
 ## Methoden der Klasse Vehicle
+
 | Methode | Rückgabewert | Sichtbarkeit | Level | Beschreibung |
 | ------- | ------------ | ------------ | ----- | ------------ |
 | _Vehicle(String, String, Engine)_ | void | public | nicht-statisch | _Festlegen des Herstellers, des Modells und des Motors_ |
