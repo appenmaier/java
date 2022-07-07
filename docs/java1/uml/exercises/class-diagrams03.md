@@ -2,7 +2,7 @@
 title: Übungsaufgabe ClassDiagrams03
 ---
 
-- Passe die Klasse `Creature` aus Übungsaufgabe [Constructors05](../oo/exercises/constructors05.md) anhand des abgebildeten Klassendiagramms an und Erstelle die 
+- Passe die Klasse `Creature` aus Übungsaufgabe [Constructors05](../../oo/exercises/constructors05.md) anhand des abgebildeten Klassendiagramms an und Erstelle die 
 Klasse `CreatureGame`
 - Erstelle eine ausführbare Klasse, welche einen Kampf zwischen zwei Kreaturen simuliert
 
