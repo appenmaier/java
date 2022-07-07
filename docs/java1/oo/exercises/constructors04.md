@@ -8,9 +8,9 @@ Wurfes ausgegeben werden.
 
 ## Methoden der Klasse DiceCup
 
-| Methode             | Rückgabewert | Sichtbarkeit | Beschreibung              |
-| ------------------- | ------------ | ------------ | ------------------------- |
-| rollTheDices(Dice…) | void         | public       | Würfeln mit allen Würfeln |
+| Methode               | Rückgabewert | Sichtbarkeit | Beschreibung                |
+| --------------------- | ------------ | ------------ | --------------------------- |
+| _rollTheDices(Dice…)_ | _void_       | _public_     | _Würfeln mit allen Würfeln_ |
 
 ## Konsolenausgabe
 
