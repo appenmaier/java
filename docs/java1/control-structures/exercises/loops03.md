@@ -14,4 +14,5 @@ Absoluter Anteil: 3
 Prozentualer Anteil: 30,00%
 ```
 
-> Die Methode `charAt(int)` der Klasse `String` gibt das Zeichen mit dem Index der eingehenden Zahl zurück.
+## Hinweis
+Die Methode `charAt(int)` der Klasse `String` gibt das Zeichen mit dem Index der eingehenden Zahl zurück.
