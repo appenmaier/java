@@ -12,4 +12,5 @@ Gib bitte die zweite Zeichenkette ein: HALLO WELT
 Ergebnis: Die eingegebenen Zeichenketten sind identisch
 ```
 
-> Die statische Methode `toUpperCase(char)` der Klasse `Character` gibt den Großbuchstaben des eingehenden Zeichens zurück.
+## Hinweis
+Die statische Methode `toUpperCase(char)` der Klasse `Character` gibt den Großbuchstaben des eingehenden Zeichens zurück.
