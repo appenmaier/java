@@ -6,7 +6,7 @@ Welche Ausgabe erwartest Du nach Ablauf des abgebildeten Codings?
 
 ## Coding
 
-```markdown
+```java
 int a = 0; int b = 0; int c = 0;
 int d = 5; int e = 3; int f = 4;
 int g = 0; int h = 2;
