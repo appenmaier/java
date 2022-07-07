@@ -3,10 +3,10 @@ title: Einführung in die Programmierung
 ---
 
 ## Inhalte
-- [Programmieren](coding/coding.md)
-    - [Programmierparadigmen](coding/programming-paradigms.md) 
-    - [Programmausführung](coding/program-execution.md)
-    - [Die Programmiersprache Java](coding/java.md)
+- [Programmieren](coding/coding.md) \| [Übungsaufgaben](coding/exercises/coding.md)
+    - [Programmierparadigmen](coding/programming-paradigms.md) \| [Übungsaufgaben](coding/exercises/programming-paradigms.md)
+    - [Programmausführung](coding/program-execution.md) \| [Übungsaufgaben](coding/exercises/program-execution.md)
+    - [Die Programmiersprache Java](coding/java.md) \| [Übungsaufgaben](coding/exercises/java.md)
 - [Aufbau einer Java-Klasse](class-structure/class-structure.md)
     - [Die main-Methode](class-structure/main-method.md) \| [Übungsaufgaben](class-structure/exercises/main-method.md)
     - [Kommentare](class-structure/comments.md) \| [Übungsaufgaben](class-structure/exercises/comments.md)
