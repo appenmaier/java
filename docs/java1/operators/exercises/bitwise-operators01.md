@@ -6,7 +6,7 @@ Welche Ausgabe erwartest Du nach Ablauf des abgebildeten Codings?
 
 ## Coding
 
-```markdown
+```java
 byte a = 116, b = 59;
 byte c, d, e, f;
 
