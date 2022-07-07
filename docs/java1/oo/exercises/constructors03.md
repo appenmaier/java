@@ -15,4 +15,5 @@ ID - Würfelwert
 5 - 2
 ```
 
-> Verwende die Klasse `Dice` aus Übungsaufgabe [Constructors02](constructors02.md)
+## Hinweis
+Verwende die Klasse `Dice` aus Übungsaufgabe [Constructors02](constructors02.md).
