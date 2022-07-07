@@ -13,5 +13,6 @@ Spieler 2, gib bitte Deinen Tipp ein: 60
 Zufallszahl: 39, Spieler 1 gewinnt
 ```
 
-> Die Methode `nextInt(int)` der Klasse `Random` gibt eine Zufallszahl zwischen 0 (inklusive) und der eingehenden Zahl (exklusive) zurück, 
-die statische Methode `abs(int)` der Klasse `Math` den Betrag der eingehenden Zahl.
+## Hinweise
+- Die Methode `nextInt(int)` der Klasse `Random` gibt eine Zufallszahl zwischen 0 (inklusive) und der eingehenden Zahl (exklusive) zurück
+- Die statische Methode `abs(int)` der Klasse `Math` gibt den Betrag der eingehenden Zahl zurück
