@@ -31,4 +31,5 @@ Wurf 2
 …
 ```
 
-> Verwende die Klasse `Dice` aus Übungsaufgabe [Constructors03](constructors03.md)
+## Hinweis
+Verwende die Klasse `Dice` aus Übungsaufgabe [Constructors03](constructors03.md).
