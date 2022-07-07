@@ -9,22 +9,22 @@ title: Übungsaufgabe ObjectsAndReferences01
 
 | Attribut | Datentyp | Sichtbarkeit |
 | -------- | -------- | ------------ |
-| make     | String   | private      |
-| model    | String   | private      |
-| speed    | double   | private      |
+| _make_   | _String_ | _private_    |
+| _model_  | _String_ | _private_    |
+| _speed_  | _double_ | _private_    |
 
 ## Methoden der Klasse Vehicle
 
-| Methode          | Rückgabewert | Sichtbarkeit | Beschreibung                                            |
-| ---------------- | ------------ | ------------ | ------------------------------------------------------- |
-| setMake(String)  | void         | public       | Festlegen des Herstellers                               |
-| setModel(String) | void         | public       | Festlegen des Modells                                   |
-| getMake()        | String       | public       | Rückgabe des Herstellers                                |
-| getModel()       | String       | public       | Rückgabe des Modells                                    |
-| getSpeed()       | double       | public       | Rückgabe der Geschwindigkeit                            |
-| accelerate(int)  | void         | public       | Erhöhung der Geschwindigkeit um den eingehenden Wert    |
-| brake(int)       | void         | public       | Reduzierung der Geschwindigkeit um den eingehenden Wert |
-| print()          | void         | public       | Ausgabe: Hersteller Modell                              |
+| Methode            | Rückgabewert | Sichtbarkeit | Beschreibung                                              |
+| ------------------ | ------------ | ------------ | --------------------------------------------------------- |
+| _setMake(String)_  | _void_       | _public_     | _Festlegen des Herstellers_                               |
+| _setModel(String)_ | _void_       | _public_     | _Festlegen des Modells_                                   |
+| _getMake()_        | _String_     | _public_     | _Rückgabe des Herstellers_                                |
+| _getModel()_       | _String_     | _public_     | _Rückgabe des Modells_                                    |
+| _getSpeed()_       | _double_     | _public_     | _Rückgabe der Geschwindigkeit_                            |
+| _accelerate(int)_  | _void_       | _public_     | _Erhöhung der Geschwindigkeit um den eingehenden Wert_    |
+| _brake(int)_       | _void_       | _public_     | _Reduzierung der Geschwindigkeit um den eingehenden Wert_ |
+| _print()_          | _void_       | _public_     | _Ausgabe: Hersteller Modell_                              |
 
 ## Konsolenausgabe
 
