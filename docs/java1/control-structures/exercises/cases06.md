@@ -17,5 +17,5 @@ Gib bitte das Geschlecht ein (m, w, d): m
 Hallo Herr Schmidt
 ```
 
-Hinweis
+## Hinweis
 Verwende für die Lösung eine switch-case-Verzweigung.
