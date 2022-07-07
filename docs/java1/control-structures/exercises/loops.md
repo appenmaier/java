@@ -12,3 +12,4 @@ title: Schleifen
 - Übungsaufgabe [Loops02](loops02.md)
 - Übungsaufgabe [Loops03](loops03.md)
 - Übungsaufgabe [Loops04](loops04.md)
+- Übungsaufgabe [Loops05](loops05.md)
