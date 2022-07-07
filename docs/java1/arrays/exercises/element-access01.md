@@ -18,4 +18,5 @@ Zweierpotenzen:
 128
 ```
 
-> Die statische Methode `pow(double, double)` der Klasse `Math` gibt den Potenzwert zur eingehenden Basis und dem eingehenden Exponenten als Gleitpunktzahl zurück.
+## Hinweis
+Die statische Methode `pow(double, double)` der Klasse `Math` gibt den Potenzwert zur eingehenden Basis und dem eingehenden Exponenten als Gleitpunktzahl zurück.
