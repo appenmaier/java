@@ -9,6 +9,6 @@ title: Klassendiagramme
 ## Übungsaufgaben
 - Übungsaufgabe [ClassDiagrams01](class-diagrams01.md)
 - Übungsaufgabe [ClassDiagrams02](class-diagrams02.md)
-- Übungsaufgabe ClassDiagrams03
+- Übungsaufgabe [ClassDiagrams03](class-diagrams03.md)
 - Übungsaufgabe [ClassDiagrams04](class-diagrams04.md)
-- Übungsaufgabe ClassDiagrams05
+- Übungsaufgabe [ClassDiagrams05](class-diagrams05.md)
