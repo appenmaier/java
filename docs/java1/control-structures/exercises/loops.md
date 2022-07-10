@@ -31,3 +31,10 @@ title: Schleifen
 - Übungsaufgabe [I-2-1.6.3](https://tutego.de/javabuch/aufgaben/imperativ.html#_alles_im_lot)
 - Übungsaufgabe [I-2-1.6.5](https://tutego.de/javabuch/aufgaben/imperativ.html#_collatz_folge_berechnen)
 - Übungsaufgabe [I-2-1.6.6](https://tutego.de/javabuch/aufgaben/imperativ.html#_multiplikationstabelle_erstellen)
+
+## Übungsaufgaben der Uni Koblenz-Landau
+- Übungsaufgabe [C1](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [C2](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [C3](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [C4](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [C5](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
