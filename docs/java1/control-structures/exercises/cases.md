@@ -26,3 +26,10 @@ title: Verzweigungen
 - Übungsaufgabe [I-2-1.4.3](https://tutego.de/javabuch/aufgaben/imperativ.html#_literangaben_umrechnen)
 - Übungsaufgabe [I-2-1.4.5](https://tutego.de/javabuch/aufgaben/imperativ.html#_eingegebene_zeichenfolgen_f%C3%BCr_eine_zustimmung_auswerten)
 - Übungsaufgabe [I-2-1.4.6](https://tutego.de/javabuch/aufgaben/imperativ.html#_switch_anweisung_in_switch_ausdruck_umschreiben_neu)
+
+## Übungsaufgaben der Uni Koblenz-Landau
+- Übungsaufgabe [B1](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [B2](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [B3](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [B4](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+- Übungsaufgabe [B5](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
