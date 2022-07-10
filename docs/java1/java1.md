@@ -35,7 +35,7 @@ title: Einführung in die Programmierung
     - [Zugriff auf Feldelemente](arrays/element-access.md) \| [Übungsaufgaben](arrays/exercises/element-access.md)
     - [Der Parameter String\[\]args](arrays/string-args.md) \| [Übungsaufgaben](arrays/exercises/string-args.md)
     - [Variable Argumentlisten (VarArgs)](arrays/var-args.md) \| [Übungsaufgaben](arrays/exercises/var-args.md)
-- [Grundlagen der Objektorientierung](oo/oo.md)
+- [Grundlagen der Objektorientierung](oo/oo.md) \| [Übungsaufgaben](oo/exercises/oo.md)
     - [Klassen, Attribute und Methoden](oo/classes-attributes-and-methods.md)
     - [Objekte und Referenzvariablen](oo/objects-and-references.md) \| [Übungsaufgaben](oo/exercises/objects-and-references.md)
     - [Überladene Methoden](oo/overloaded-methods.md)
