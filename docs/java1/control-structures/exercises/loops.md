@@ -12,6 +12,7 @@ title: Schleifen
 - Übungsaufgabe [Loops03](loops03.md)
 - Übungsaufgabe [Loops04](loops04.md)
 - Übungsaufgabe [Loops05](loops05.md)
+- Übungsaufgabe [Loops05](loops06.md)
 
 ## Übungsaufgaben von tutego.de
 - Übungsaufgabe [I-2-1.5.3](https://tutego.de/javabuch/aufgaben/imperativ.html#_zahlen_von_der_kommandozeile_summieren)
