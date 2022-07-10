@@ -33,3 +33,10 @@ title: Verzweigungen
 - Übungsaufgabe [B3](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [B4](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [B5](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+
+## Übungsaufgaben der Technischen Hochschule Ulm
+- Übungsaufgabe [Verzweigungen01](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Verzweigungen02](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Verzweigungen03](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Verzweigungen04](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Verzweigungen05](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
