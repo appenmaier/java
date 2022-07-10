@@ -28,3 +28,15 @@ title: Zugriff auf Feldelemente
 - Übungsaufgabe [E7](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [E8](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [E9](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+
+## Übungsaufgaben der Technischen Hochschule Ulm
+- Übungsaufgabe [Felder01](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Felder02](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Felder03](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Felder04](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Felder05](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Felder06](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Methoden01](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Methoden02](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Methoden03](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Methoden04](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
