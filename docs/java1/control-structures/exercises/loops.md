@@ -38,3 +38,10 @@ title: Schleifen
 - Übungsaufgabe [C3](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [C4](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
 - Übungsaufgabe [C5](https://www.uni-koblenz-landau.de/de/koblenz/fb4/ist/rgebert/teaching/SS08/java-programming/programmieraufgaben.pdf/view)
+
+## Übungsaufgaben der Technischen Hochschule Ulm
+- Übungsaufgabe [Schleifen01](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Schleifen02](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Schleifen03](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Schleifen04](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
+- Übungsaufgabe [Schleifen05](https://studium.hs-ulm.de/de/org/I/vorkurse/Documents/java_aufgaben.pdf)
