@@ -4,8 +4,8 @@ title: Fortgeschrittene Programmierung
 
 ## Inhalte
 - Softwaredesign
-    - [Gestaltungsrichtlinien](design/design-principles.md)
-    - [Entwurfsmuster](design/design-patterns.md)
+    - [Gestaltungsrichtlinien (Design Principles)](design/design-principles.md)
+    - [Entwurfsmuster (Design Patterns)](design/design-patterns.md)
 - [Generische Programmierung](generics/generics.md) \| [Übungsaufgaben](generics/exercises/generics.md)
     - [Java Generics](generics/java-generics.md) \| [Übungsaufgaben](generics/exercises/java-generics.md)
     - [Varianz](generics/variance.md) \| [Übungsaufgaben](generics/exercises/variance.md)
