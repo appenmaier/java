@@ -3,6 +3,9 @@ title: Fortgeschrittene Programmierung
 ---
 
 ## Inhalte
+- Softwaredesign
+    - [Gestaltungsrichtlinien](design/design-principles.md)
+    - [Entwurfsmuster](design/design-patterns.md)
 - [Generische Programmierung](generics/generics.md) \| [Übungsaufgaben](generics/exercises/generics.md)
     - [Java Generics](generics/java-generics.md) \| [Übungsaufgaben](generics/exercises/java-generics.md)
     - [Varianz](generics/variance.md) \| [Übungsaufgaben](generics/exercises/variance.md)
@@ -34,10 +37,3 @@ title: Fortgeschrittene Programmierung
     - [Schreiben und Lesen zeichenorientierter Daten](io-streams/writers-and-readers.md)
     - [Schreiben und Lesen byteorientierter Daten](io-streams/output-streams-and-input-streams.md) 
     - [Schreiben und Lesen serialisierter Objekte](io-streams/serialization.md)
-
-## Exkurse
-- [Gestaltungsrichtlinien](disgressions/design-principles.md)
-- [Entwurfsmuster](disgressions/design-patterns.md)
-
-## Anleitungen
-- [Entwicklungsumgebung einrichten](instructions/setup.md)
