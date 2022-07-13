@@ -37,3 +37,7 @@ title: Fortgeschrittene Programmierung
     - [Schreiben und Lesen zeichenorientierter Daten](io-streams/writers-and-readers.md)
     - [Schreiben und Lesen byteorientierter Daten](io-streams/output-streams-and-input-streams.md) 
     - [Schreiben und Lesen serialisierter Objekte](io-streams/serialization.md)
+
+## Sonstiges
+- [Anleitungen](instructions/instructions.md)
+- [Klausurvorbereitung](preparation/preparation.md)
