@@ -1,5 +1,5 @@
 ---
-title: Inhalte
+title: Programmierung
 ---
 
 ## Dokumentationen
@@ -9,10 +9,6 @@ title: Inhalte
 ## git-Repositories
 - Dokumentation: [https://github.com/appenmaier/java/](https://github.com/appenmaier/java/)
 - Quellcode: [https://github.com/appenmaier/dhbw-java/](https://github.com/appenmaier/dhbw-java/)
-
-## Sonstiges
-- [Anleitungen](docs/instructions/instructions.md)
-- [Klausurvorbereitung](docs/preparation/preparation.md)
 
 ## Hinweis
 Dieses git-Repository befindet sich aktuell noch im Aufbau. Sämtliche Inhalte (Texte, Abbildungen etc.) werden zeitnah überarbeitet, die noch fehlenden Übungsaufgaben werden zeitnah ergänzt.
