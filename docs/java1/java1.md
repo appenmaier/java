@@ -66,9 +66,3 @@ title: Einführung in die Programmierung
 - [Fehlerbehandlung](bugs/bugs.md)
     - [Debugging](bugs/debugging.md)
     - [Ausnahmen (Exceptions)](bugs/exceptions.md) \| [Übungsaufgaben](bugs/exercises/exceptions.md)
-
-## Exkurse
-- Darstellung von Zahlen und Zeichen im Computer _folgt_ 
-
-## Anleitungen
-- Entwicklungsumgebung einrichten _folgt_ 
