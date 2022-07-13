@@ -3,7 +3,7 @@ title: Fortgeschrittene Programmierung
 ---
 
 ## Inhalte
-- Softwaredesign
+- [Softwaredesign](design/design.md)
     - [Gestaltungsrichtlinien (Design Principles)](design/design-principles.md)
     - [Entwurfsmuster (Design Patterns)](design/design-patterns.md)
 - [Generische Programmierung](generics/generics.md) \| [Übungsaufgaben](generics/exercises/generics.md)
