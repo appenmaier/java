@@ -53,6 +53,7 @@ title: Einführung in die Programmierung
     - [Dateien und Verzeichnisse](java-api/files.md)
     - [Aufzählungen (Enumerations)](java-api/enums.md) \| [Übungsaufgaben](java-api/exercises/enums.md)
     - [Datenklassen (Records)](java-api/records.md)
+    - [Assoziativspeicher (Maps)](java-api/maps.md)
 - [Darstellung von Klassen und Programmabläufen](uml/uml.md) \| [Übungsaufgaben](uml/exercises/uml.md)
     - [Klassendiagramme](uml/class-diagrams.md) \| [Übungsaufgaben](uml/exercises/class-diagrams.md)
     - [Aktivitätsdiagramme](uml/activity-diagrams.md) \| [Übungsaufgaben](uml/exercises/activity-diagrams.md)
