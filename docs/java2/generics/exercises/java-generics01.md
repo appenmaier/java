@@ -6,7 +6,7 @@ title: Übungsaufgabe JavaGenerics01
 - Erstelle eine ausführbare Klasse, welche eine Getränkiste sowie mehrere Flaschen erzeugt und die Flaschen in die Getränkekiste stellt 
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/176699182-599b7285-a582-4740-86d8-6c6fcc8edfd1.png)
+![image](https://user-images.githubusercontent.com/47243617/179726347-0d746c34-ca62-4624-baa6-f47f12a8d960.png)
 
 ## Hinweise zur Klasse BeerBottle
 - Die Methode `chugALug()` soll den Text "Ex und Hopp" auf der Konsole ausgeben
