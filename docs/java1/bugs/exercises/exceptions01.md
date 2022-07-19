@@ -10,5 +10,5 @@ title: Übungsaufgabe Exceptions01
 ![image](https://user-images.githubusercontent.com/47243617/176827972-1ad44ba0-46ec-4f21-933b-1a6b1f042e87.png)
 
 ## Hinweise zur Klasse Vehicle
-- In der Methode `accelerate(int)` soll bei einem Wert kleiner gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
-- In der Methode `brake(int)` soll bei einem Wert kleiner gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
+- In der Methode `accelerate(int)` soll bei einem eingehenden Wert kleiner gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
+- In der Methode `brake(int)` soll bei einem eingehenden Wert kleiner gleich Null die Ausnahme `InvalidValueException` ausgelöst werden
