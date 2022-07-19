@@ -9,8 +9,8 @@ title: Übungsaufgabe Exceptions02
 ![image](https://user-images.githubusercontent.com/47243617/170884584-99f8cb2b-b87e-43ff-995b-de313be343c1.png)
 
 ## Hinweise zur Klasse Barrel
-- Der Konstruktor soll alle Attribute initialisieren
-- Die Methode `addFluid(int)` soll den Füllstand um den eingegebenen Betrag erhöhen. Bei Überschreiten der Kapazität soll die Ausnahme `BarrelOverflowException` ausgelöst werden
+- Der Konstruktor soll das Attribut `capacity` initialisieren
+- Die Methode `addFluid(int)` soll den Füllstand um den eingehenden Betrag erhöhen. Bei Überschreiten der Kapazität soll die Ausnahme `BarrelOverflowException` ausgelöst werden
 - Die Methode `printFluidLevel()` soll den Füllstand auf der Konsole ausgeben
 
 ## Konsolenausgabe
