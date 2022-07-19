@@ -11,4 +11,6 @@ title: Übungsaufgabe Comparators01
 ## Hinweise zur Klasse Coordinate
 - Die Methode `getDistanceToOriginPoint()` soll die Distanz der Koordinate zum Nullpunkt zurückgeben
 - Die Methode `compareTo(Coordinate)` soll die Koordinate mit der eingehenden Koordinate anhand ihrer jeweiligen Distanz zum Nullpunkt vergleichen. Ist die Distanz der Koordinate zum Nullpunkt kleiner als bzw. größer als bzw. gleich die der eingehenden Koordinate, soll der Wert 1 bzw. -1 bzw. 0 zurückgegeben werden 
-- Die statische Methode `hypot(double, double)` der Klasse `Math` berechnet die Hypotenuse zum eingehenden X- und Y-Wert
+
+## Hinweis
+Die statische Methode `hypot(double, double)` der Klasse `Math` berechnet die Hypotenuse zum eingehenden X- und Y-Wert.
