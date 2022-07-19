@@ -6,4 +6,4 @@ title: Übungsaufgabe Variance01
 - Passe die ausführbare Klasse aus Übungsaufgabe [JavaGenerics01](java-generics01.md) so an, dass sie fehlerfrei ausgeführt werden kann
 
 ## Klassendiagramm
-![image](https://user-images.githubusercontent.com/47243617/176700172-f298af73-258d-4480-8752-ce0609d608f2.png)
+![image](https://user-images.githubusercontent.com/47243617/179726509-3a91d29a-b0b9-46b4-a290-ec3fdc2425a2.png)
