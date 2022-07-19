@@ -2,7 +2,8 @@
 title: Übungsaufgabe JavaGenerics01
 ---
 
-Erstelle die Klassen `Bottle`, `BeerBottle`, `WineBottle` und `Crate` anhand des abgebildeten Klassendiagramms.
+- Erstelle die Klassen `Bottle`, `BeerBottle`, `WineBottle` und `Crate` anhand des abgebildeten Klassendiagramms
+- Erstelle eine ausführbare Klasse, welche eine Getränkiste sowie mehrere Flaschen erzeugt und die Flaschen in die Getränkekiste stellt 
 
 ## Klassendiagramm
 ![image](https://user-images.githubusercontent.com/47243617/176699182-599b7285-a582-4740-86d8-6c6fcc8edfd1.png)
