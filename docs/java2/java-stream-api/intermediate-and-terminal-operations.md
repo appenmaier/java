@@ -5,27 +5,34 @@ title: Intermediäre und Terminale Operationen
 Die Methoden der Schnittstelle `Stream` werden in **intermediäre** und **terminale Operationen** unterteilt.
 
 ## Intermediäre Operationen
-Intermediäre Operationen ermöglichen das Filtern, Sortieren, Mappen etc. von Strömen und liefern als Ergebnis wiederum einen Strom.
+Intermediäre Operationen ermöglichen unter anderem das Filtern, Abbilden sowie das Sortieren von Strömen und liefern als Ergebnis wiederum einen Strom.
 
-| Operation     | Methode                             | Schnittstellen-Methode |
-| ------------- | ----------------------------------- | ---------------------- |
-| Filter        | `Stream<T> filter(Predicate<T>)`    | `boolean test(T)`      |
-| Abbilden      | `Stream<T> flatMap(Function<T, R>)` | `R apply(T)`           |
-| Abbilden      | `Stream<T> map(Function<T, R>)`     | `R apply(T)`           |
-| Sortieren     | `Stream<T> sorted(Comparator<T>)`   | `int compare(T, T)`    |
-| Unterscheiden | `Stream<T> distinct()`              | -                      |
-| Begrenzen     | `Stream<T> limit()`                 | -                      |
-| Überspringen  | `Stream<T> skip()`                  | -                      |
+| Operation     | Methode                                                           | Schnittstellen-Methode |
+| ------------- | ----------------------------------------------------------------- | ---------------------- |
+| Filtern       | `Stream<T> filter(Predicate<? super T>)`                          | `boolean test(T)`      |
+| Abbilden      | `Stream<T> map(Function<? super T, ? extends R>)`                 | `R apply(T)`           |
+| Abbilden      | `Stream<T> mapToDouble(ToDoubleFunction<? super T, ? extends R>)` | `R apply(T)`           |
+| Abbilden      | `Stream<T> mapToInt(ToIntFunction<? super T, ? extends   R>)`     | `R apply(T)`           |
+| Sortieren     | `Stream<T> sorted(Comparator<? superT>)`                          | `int compare(T, T)`    |
+| Unterscheiden | `Stream<T> distinct()`                                            | -                      |
+| Begrenzen     | `Stream<T> limit()`                                               | -                      |
+| Überspringen  | `Stream<T> skip()`                                                | -                      |
 
 ## Terminale Operationen
-Terminale Operationen werden z.B. zum Suchen, zum Aggregieren oder zum Ausgeben von Daten verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine keine weiteren Operationen mehr ausgeführt werden.
+Terminale Operationen werden z.B. zum Prüfen, zum Aggregieren oder zum Sammeln verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine keine weiteren Operationen mehr ausgeführt werden.
 
-| Operation  | Methode                           | Schnittstellen-Methode |
-| -----------| --------------------------------- | ---------------------- |
-| Finden     | `Optional<T> findAny()`          | -                      |
-| Finden     | `Optional<T> findFirst()`         | -                      |
-| Prüfen     | `boolean allMatch(Predicate<T>)`  | `boolean test(T)`      |
-| Prüfen     | `boolean anyMatch(Predicate<T>)`  | `boolean test(T)`      |
-| Prüfen     | `boolean noneMatch(Predicate<T>)` | `boolean test(T)`      |
-| Reduzieren | `T reduce(BinaryOperator<T>)`     | `R apply(T, U)`        |
-| Ausführen  | `void forEach(Consumer<T>)`       | `void accept(T)`       |
+| Operation   | Methode                                        | Schnittstellen-Methode |
+| ----------- | ---------------------------------------------- | ---------------------- |
+| Finden      | `Optional<T> findAny()`                        | -                      |
+| Finden      | `Optional<T> findFirst()`                      | -                      |
+| Prüfen      | `boolean allMatch(Predicate<? super T>)`       | `boolean test(T)`      |
+| Prüfen      | `boolean anyMatch(Predicate<? super T>)`       | `boolean test(T)`      |
+| Prüfen      | `boolean noneMatch(Predicate<? siper T>)`      | `boolean test(T)`      |
+| Aggregieren | `T reduce(BinaryOperator<T>)`                  | `R apply(T, U)`        |
+| Aggregieren | `Optional<T> min(Comparator<? super T>)`       | `int compare(T, T)`    |
+| Aggregieren | `Optional<T> max(Comparator<? super T>)`       | `int compare(T, T)`    |
+| Aggregieren | `long count()`                                 | -                      |
+| Sammeln     | `<R, A> R collect(Collector< ? super T, A, R>` | -                      |
+| Ausführen   | `void forEach(Consumer<? super T>)`            | `void accept(T)`       |
+
+Zahlenströme (`IntStream`, `DoubleStream`) besitzen die zusätzlichen terminale Operationen `sum()` und `average()`.
