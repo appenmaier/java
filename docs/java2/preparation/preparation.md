@@ -18,9 +18,9 @@ _folgt_
 - `Collections`: `sort(List<E>)`, `sort(List<E>, Comparator<? super E>)`
 - `Comparabale<T>`: `compare(T, T)`
 - `Comparator<T>`: `compareTo(T)`
-- `HashMap<K, V>`: `put(K, V)`, `entrySet()`, `keySet()`, `values()`
+- `HashMap<K, V>`: `entrySet()`, `keySet()`, `put(K, V)`, `values()`
 - `List<E>`: of-Methoden
-- `Object`: `hashCode()`,  `equals(Object`, `toString()`
+- `Object`:  `equals(Object)`, `hashCode()`, `toString()`
 - `PrintStream`: print-Methoden
 - `Random`: `nextInt(int)`
 - `String`: `charAt(int)`, `length()`, `split(String)`
