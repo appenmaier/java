@@ -3,8 +3,7 @@ title: Assoziativspeicher (Maps)
 ---
 
 Unter einem **Assoziativspeicher** (Map) versteht man eine Menge zusammengehöriger Paare von Objekten. Das erste Objekt stellt dabei den Schlüssel (Key), das zweite 
-Objekt den Wert (Value) dar. Jeder Schlüssel kann dabei nur einmal in einem Assoziativspeicher vorhanden sein. Aufgrund dieses Aufbaus werden Assoziativspeicher auch als 
-Wörterbücher beteichnet.
+Objekt den Wert (Value) dar. Jeder Schlüssel kann dabei nur einmal in einem Assoziativspeicher vorhanden sein. Aufgrund dieses Aufbaus werden Assoziativspeicher auch als Wörterbücher bezeichnet.
 
 ![image](https://user-images.githubusercontent.com/47243617/178993798-64074bc6-0a7b-4201-9b40-0d37423e718a.png)
 
@@ -38,8 +37,7 @@ public class MainClass {
 
 ## Die Klasse HashMap<K, V>
 Die Klasse `HashMap<K, V>` implementiert den Assoziativspeicher in Form einer Hashtabelle. Für den Einsatz einer Hashtabelle ist es zwingend erforderlich, dass die 
-Klasse, die den Schlüssel bildet, die Methoden `hashCode()` und `equals(Object)` gemäß den entsprechenden Dokumentationskommentaren überschrieben hat.
-Im Gegensatz zu einem Binärbaum liegen die Paare in einer Hashtabelle unsortiert vor.
+Klasse, die den Schlüssel bildet, die Methoden `hashCode()` und `equals(Object)` gemäß den entsprechenden Dokumentationskommentaren überschrieben hat. Im Gegensatz zu einem Binärbaum liegen die Paare in einer Hashtabelle unsortiert vor.
 
 | Index | Schlüssel | Wert |
 | ----- | --------- | ---- |
@@ -49,10 +47,10 @@ Im Gegensatz zu einem Binärbaum liegen die Paare in einer Hashtabelle unsortier
 | 14    | Eier      | 5    |
 
 ## Die Klasse TreeMap<K, V>
-Die Klasse `TreeMap<K, V>` implementiert den Assoziativspeicher in Form eines Binärbaumes. Als Datenstruktur wird dabei ein balancierter Baum genutzt, d.h. spezielle 
+Die Klasse `TreeMap<K, V>` implementiert den Assoziativspeicher in Form eines Binärbaumes. Als Datenstruktur wird dabei ein balancierter Baum verwendet, d.h. spezielle 
 Einfüge- und Löschoperationen stellen sicher, dass der Baum nicht zu einer linearen Liste entartet. Da die Paare in einem Binärbaum sortiert vorliegen, ist es für
-den Einsatz zwingend erforderlich, dass die Klasse, die den Schlüssel bildet, die Schnittstelle `Comparable<T>` implmentiert hat. Alternativ kann dem Konstruktor
-der Klasse `TreeMap<K, V>`ein Komparator für den Schlüssel mitgegeben werden.
+den Einsatz zwingend erforderlich, dass die Klasse, die den Schlüssel bildet, die Schnittstelle `Comparable<T>` implementiert hat. Alternativ kann dem Konstruktor
+der Klasse `TreeMap<K, V>` ein Komparator für den Schlüssel mitgegeben werden.
 
 ![image](https://user-images.githubusercontent.com/47243617/178997445-d30d0d12-61e4-4fdc-a2e7-6750384ce8a8.png)
 
