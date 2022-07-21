@@ -7,16 +7,16 @@ Die Methoden der Schnittstelle `Stream` werden in **intermediäre** und **termin
 ## Intermediäre Operationen
 Intermediäre Operationen ermöglichen unter anderem das Filtern, Abbilden sowie das Sortieren von Strömen und liefern als Ergebnis wiederum einen Strom.
 
-| Operation     | Methode                                                           | Schnittstellen-Methode |
-| ------------- | ----------------------------------------------------------------- | ---------------------- |
-| Filtern       | `Stream<T> filter(Predicate<? super T>)`                          | `boolean test(T)`      |
-| Abbilden      | `Stream<T> map(Function<? super T, ? extends R>)`                 | `R apply(T)`           |
-| Abbilden      | `Stream<T> mapToDouble(ToDoubleFunction<? super T, ? extends R>)` | `R apply(T)`           |
-| Abbilden      | `Stream<T> mapToInt(ToIntFunction<? super T, ? extends   R>)`     | `R apply(T)`           |
-| Sortieren     | `Stream<T> sorted(Comparator<? superT>)`                          | `int compare(T, T)`    |
-| Unterscheiden | `Stream<T> distinct()`                                            | -                      |
-| Begrenzen     | `Stream<T> limit()`                                               | -                      |
-| Überspringen  | `Stream<T> skip()`                                                | -                      |
+| Operation     | Methode                                                              | Schnittstellen-Methode    |
+| ------------- | -------------------------------------------------------------------- | ------------------------- |
+| Filtern       | `Stream<T> filter(Predicate<? super T>)`                             | `boolean test(T)`         |
+| Abbilden      | `Stream<T> map(Function<? super T, ? extends R>)`                    | `R apply(T)`              |
+| Abbilden      | `DoubleStream mapToDouble(ToDoubleFunction<? super T, ? extends R>)` | `double applyAsDouble(T)` |
+| Abbilden      | `IntStream mapToInt(ToIntFunction<? super T, ? extends   R>)`        | `int applyAsInt(T)`       |
+| Sortieren     | `Stream<T> sorted(Comparator<? superT>)`                             | `int compare(T, T)`       |
+| Unterscheiden | `Stream<T> distinct()`                                               | -                         |
+| Begrenzen     | `Stream<T> limit()`                                                  | -                         |
+| Überspringen  | `Stream<T> skip()`                                                   | -                         |
 
 ## Terminale Operationen
 Terminale Operationen werden z.B. zum Prüfen, zum Aggregieren oder zum Sammeln verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine keine weiteren Operationen mehr ausgeführt werden.
