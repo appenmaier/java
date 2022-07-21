@@ -13,23 +13,18 @@ title: Klausurvorbereitung
 ## Klausurrelevante Themen
 _folgt_
 
-## Als bekannt vorausgesetzte Klassen und Methoden
-- Klasse `ArrayList<E>`
-    - Methode `add(E)`
-    - Methode `add(int, E)`
-    - Methode `get(int)`
-    - Methode `size()` 
-- Klasse `HashMap<K, V>`
-    - Methode `put(K, V)`
-    - Methode `entrySet()`
-    - Methode `keySet()`
-    - Methode `values()`
-- Aufzählungen (Enumerations)
-    - Methode `valueOf(...)`
-    - Methode `values()`
-- Wrapper-Klassen
-    - Methode `valueOf()`
-- Klasse `Object`
-    - Methode `hashCode()`
-    - Methode `equals(Object`
-    - Methode `toString()`     
+## Vorausgesetzte Klassen und Methoden
+- `ArrayList<E>`: `add(E)`, `add(int, E)`, `forEach(Consumer<? super E>)`, `get(int)`, `size()`
+- `Collections`: `sort(List<E>)`, `sort(List<E>, Comparator<? super E>)`
+- `Comparabale<T>`: `compare(T, T)`
+- `Comparator<T>`: `compareTo(T)`
+- `HashMap<K, V>`: `put(K, V)`, `entrySet()`, `keySet()`, `values()`
+- `List<E>`: of-Methoden
+- `Object`: `hashCode()`,  `equals(Object`, `toString()`
+- `PrintStream`: print-Methoden
+- `Random`: `nextInt(int)`
+- `String`: `charAt(int)`, `length()`, `split(String)`
+- Aufzählungen (Enumerations): valueOf-Methoden, `values()`
+- Komponententests: assert-Methoden
+- Wrapper-Klassen: valueOf-Methoden
+  
