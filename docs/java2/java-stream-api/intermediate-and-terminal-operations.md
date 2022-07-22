@@ -7,32 +7,31 @@ Die Methoden der Schnittstelle `Stream` werden in **intermediäre** und **termin
 ## Intermediäre Operationen
 Intermediäre Operationen ermöglichen unter anderem das Filtern, Abbilden sowie das Sortieren von Strömen und liefern als Ergebnis wiederum einen Strom.
 
-| Operation     | Methode                                                              | Schnittstellen-Methode    |
-| ------------- | -------------------------------------------------------------------- | ------------------------- |
-| Filtern       | `Stream<T> filter(Predicate<? super T>)`                             | `boolean test(T)`         |
-| Abbilden      | `Stream<T> map(Function<? super T, ? extends R>)`                    | `R apply(T)`              |
-| Abbilden      | `DoubleStream mapToDouble(ToDoubleFunction<? super T, ? extends R>)` | `double applyAsDouble(T)` |
-| Abbilden      | `IntStream mapToInt(ToIntFunction<? super T, ? extends   R>)`        | `int applyAsInt(T)`       |
-| Sortieren     | `Stream<T> sorted(Comparator<? superT>)`                             | `int compare(T, T)`       |
-| Unterscheiden | `Stream<T> distinct()`                                               | -                         |
-| Begrenzen     | `Stream<T> limit()`                                                  | -                         |
-| Überspringen  | `Stream<T> skip()`                                                   | -                         |
+| Operation     | Methode                                             | Schnittstellen-Methode     |
+| ------------- | --------------------------------------------------- | -------------------------- |
+| Filtern       | `filter(Predicate<T>): Stream<T>`                   | `test(T): boolean`         |
+| Abbilden      | `map(Function<T, R>): Stream<T>`                    | `apply(T): R`              |
+| Abbilden      | `mapToDouble(ToDoubleFunction<T, R>): DoubleStream` | `applyAsDouble(T): double` |
+| Abbilden      | `mapToInt(ToIntFunction<T, R>): IntStream`          | `applyAsInt(T): int`       |
+| Sortieren     | `sorted(Comparator<T>): Stream<T>`                  | `compare(T, T): int`       |
+| Unterscheiden | `distinct(): Stream<T>`                             | -                          |
+| Begrenzen     | `limit(): Stream<T>`                                | -                          |
+| Überspringen  | `skip(): Stream<T>`                                 | -                          |
 
 ## Terminale Operationen
 Terminale Operationen werden z.B. zum Prüfen, zum Aggregieren oder zum Sammeln verwendet. Da terminale Operationen den Strom schließen, können auf ihnen keine keine weiteren Operationen mehr ausgeführt werden.
 
-| Operation   | Methode                                        | Schnittstellen-Methode |
-| ----------- | ---------------------------------------------- | ---------------------- |
-| Finden      | `Optional<T> findAny()`                        | -                      |
-| Finden      | `Optional<T> findFirst()`                      | -                      |
-| Prüfen      | `boolean allMatch(Predicate<? super T>)`       | `boolean test(T)`      |
-| Prüfen      | `boolean anyMatch(Predicate<? super T>)`       | `boolean test(T)`      |
-| Prüfen      | `boolean noneMatch(Predicate<? siper T>)`      | `boolean test(T)`      |
-| Aggregieren | `T reduce(BinaryOperator<T>)`                  | `R apply(T, U)`        |
-| Aggregieren | `Optional<T> min(Comparator<? super T>)`       | `int compare(T, T)`    |
-| Aggregieren | `Optional<T> max(Comparator<? super T>)`       | `int compare(T, T)`    |
-| Aggregieren | `long count()`                                 | -                      |
-| Sammeln     | `<R, A> R collect(Collector< ? super T, A, R>` | -                      |
-| Ausführen   | `void forEach(Consumer<? super T>)`            | `void accept(T)`       |
+| Operation   | Methode                            | Schnittstellen-Methode |
+| ----------- | ---------------------------------- | ---------------------- |
+| Finden      | `findAny(): Optional<T>`           | -                      |
+| Finden      | `findFirst(): Optional<T>`         | -                      |
+| Prüfen      | `allMatch(Predicate<T>): boolean`  | `test(T): boolean`     |
+| Prüfen      | `anyMatch(Predicate<T>): boolean`  | `test(T): boolean`     |
+| Prüfen      | `noneMatch(Predicate<T>): boolean` | `test(T): boolean`     |
+| Aggregieren | `min(Comparator<T>: Optional<T>)`  | `compare(T, T): int`   |
+| Aggregieren | `max(Comparator<T>): Optional<T>`  | `compare(T, T): int`   |
+| Aggregieren | `count(): long`                    | -                      |
+| Sammeln     | `collect(Collector<T, A, R>): R`   | -                      |
+| Ausführen   | `forEach(Consumer<T>): void`       | `accept(T): void`      |
 
 Zahlenströme (`IntStream`, `DoubleStream`) besitzen die zusätzlichen terminale Operationen `sum()` und `average()`.
