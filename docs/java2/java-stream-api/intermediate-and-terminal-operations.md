@@ -13,6 +13,7 @@ Intermediäre Operationen ermöglichen unter anderem das Filtern, Abbilden sowie
 | Abbilden      | `map(Function<T, R>): Stream<T>`                    | `apply(T): R`              |
 | Abbilden      | `mapToDouble(ToDoubleFunction<T, R>): DoubleStream` | `applyAsDouble(T): double` |
 | Abbilden      | `mapToInt(ToIntFunction<T, R>): IntStream`          | `applyAsInt(T): int`       |
+| Abbilden      | `mapToLong(ToLongFunction<T, R>): LongStream`       | `applyAsLong(T): long`     |
 | Sortieren     | `sorted(Comparator<T>): Stream<T>`                  | `compare(T, T): int`       |
 | Unterscheiden | `distinct(): Stream<T>`                             | -                          |
 | Begrenzen     | `limit(): Stream<T>`                                | -                          |
@@ -34,4 +35,4 @@ Terminale Operationen werden z.B. zum Prüfen, zum Aggregieren oder zum Sammeln 
 | Sammeln     | `collect(Collector<T, A, R>): R`   | -                      |
 | Ausführen   | `forEach(Consumer<T>): void`       | `accept(T): void`      |
 
-Zahlenströme (`IntStream`, `DoubleStream`) besitzen die zusätzlichen terminale Operationen `sum()` und `average()`.
+Zahlenströme (`IntStream`, `DoubleStream`, `LongStream`) besitzen die zusätzlichen terminale Operationen `sum()` und `average()`.
